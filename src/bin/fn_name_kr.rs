@@ -3,7 +3,7 @@ fn main(){
 }
 
 fn 합구하기(n:u32) -> u32{ // 함수명에 한글 사용이 가능하다
-    let mut sum:u32 = 0;
+    let mut sum:u32 = 0; // 값 변경이 필요한 함수는 mut 키워드를 사용한다
     for i in 1..=n {
         sum += i;
     }
